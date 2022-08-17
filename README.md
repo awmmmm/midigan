@@ -31,7 +31,7 @@ print(train_data.squeeze(2))
 (158373, 100)
 ```
 
-as we can see , the first output the specific content ,,the second output show the  format ,the dataset is composed of 158373 piece of 100 dim data,each data range in (-1,1).
+as we can see , the first output the specific content ,the second output show the  format ,the dataset is composed of 158373 piece of 100 dim data,each data range in (-1,1).
 
 
 
