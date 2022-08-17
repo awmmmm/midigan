@@ -4,9 +4,9 @@ we provided [dataset](https://drive.google.com/file/d/1Oo4e2WgLg2s6xL97jp61GQfPA
 you can see it using python with numpy package.
 
 ```
-import numpy as np
-train_data = np.load("X_train.npy")
-print(train_data.squeeze(2))
+train_data = np.load("X_train.npy").squeeze(2)
+print(train_data)
+print(train_data.shape)
 ```
 
 ```
